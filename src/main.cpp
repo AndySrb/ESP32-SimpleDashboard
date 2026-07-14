@@ -8,8 +8,8 @@
 
 
 // WiFi credentials
-const char* ssid = "ZTE_852538";
-const char* password = "80532279";
+const char* ssid = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 
 
