@@ -124,12 +124,6 @@ dashboard.addModule(new AnalogPinModule(25, "LED_Brightness", "LED Brightness Co
 // Initialize in setup()
 dashboard.addModule(new DigitalInputModule(12, "Door_Sensor", "Door Status", "Reads GPIO12 as input"));
 
-// Customize HTML (optional)
-String customHTML = "<div><h2>Door Sensor</h2>";
-customHTML += "<p><strong>State: <span id='doorStatus'>LOW</span></strong></p>";
-customHTML += "</div>";
-
-// Override sendUpdate() if needed
 ```
 
 #### **How It Works**
@@ -150,13 +144,6 @@ customHTML += "</div>";
 
 // Initialize in setup()
 dashboard.addModule(new AnalogInputModule(34, "Potentiometer", "Potentiometer Value"));
-
-// Customize HTML (optional)
-String customHTML = "<div><h2>Potentiometer</h2>";
-customHTML += "<p><strong>Value: <span id='potValue'>0</span></strong></p>";
-customHTML += "</div>";
-
-// Override sendUpdate() if needed
 ```
 
 #### **How It Works**
